@@ -13,6 +13,9 @@
 		EB615A6E28B3DD74002B5BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB615A6C28B3DD74002B5BFF /* Main.storyboard */; };
 		EB615A7028B3DD76002B5BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB615A6F28B3DD76002B5BFF /* Assets.xcassets */; };
 		EB615A7328B3DD76002B5BFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB615A7128B3DD76002B5BFF /* LaunchScreen.storyboard */; };
+		EB615A7B28B4FA00002B5BFF /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB615A7A28B4FA00002B5BFF /* APICaller.swift */; };
+		EB615A7D28B51E48002B5BFF /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB615A7C28B51E48002B5BFF /* CryptoTableViewCell.swift */; };
+		EB615A7F28B52192002B5BFF /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB615A7E28B52192002B5BFF /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EB615A6F28B3DD76002B5BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB615A7228B3DD76002B5BFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB615A7428B3DD76002B5BFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB615A7A28B4FA00002B5BFF /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		EB615A7C28B51E48002B5BFF /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		EB615A7E28B52192002B5BFF /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				EB615A6628B3DD74002B5BFF /* AppDelegate.swift */,
 				EB615A6828B3DD74002B5BFF /* SceneDelegate.swift */,
 				EB615A6A28B3DD74002B5BFF /* ViewController.swift */,
+				EB615A7A28B4FA00002B5BFF /* APICaller.swift */,
 				EB615A6C28B3DD74002B5BFF /* Main.storyboard */,
 				EB615A6F28B3DD76002B5BFF /* Assets.xcassets */,
 				EB615A7128B3DD76002B5BFF /* LaunchScreen.storyboard */,
 				EB615A7428B3DD76002B5BFF /* Info.plist */,
+				EB615A7C28B51E48002B5BFF /* CryptoTableViewCell.swift */,
+				EB615A7E28B52192002B5BFF /* Models.swift */,
 			);
 			path = CryptoTrack;
 			sourceTree = "<group>";
@@ -141,6 +150,9 @@
 				EB615A6B28B3DD74002B5BFF /* ViewController.swift in Sources */,
 				EB615A6728B3DD74002B5BFF /* AppDelegate.swift in Sources */,
 				EB615A6928B3DD74002B5BFF /* SceneDelegate.swift in Sources */,
+				EB615A7F28B52192002B5BFF /* Models.swift in Sources */,
+				EB615A7D28B51E48002B5BFF /* CryptoTableViewCell.swift in Sources */,
+				EB615A7B28B4FA00002B5BFF /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
